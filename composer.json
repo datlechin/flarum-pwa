@@ -1,0 +1,41 @@
+{
+    "name": "datlechin/flarum-pwa",
+    "description": "Make your Flarum forum installable as a Progressive Web App.",
+    "keywords": ["flarum", "flarum-extension", "pwa", "manifest", "service-worker"],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "flarum/core": "^2.0.0-beta"
+    },
+    "authors": [
+        {
+            "name": "Ngo Quoc Dat",
+            "email": "datlechin@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/datlechin/flarum-pwa/issues",
+        "source": "https://github.com/datlechin/flarum-pwa"
+    },
+    "homepage": "https://nqd.vn",
+    "autoload": {
+        "psr-4": {
+            "Datlechin\\Pwa\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "PWA",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-mobile-screen",
+                "color": "#fff",
+                "backgroundColor": "#3B82F6"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

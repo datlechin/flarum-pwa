@@ -1,0 +1,31 @@
+datlechin-pwa:
+  admin:
+    settings:
+      name_label: "App name"
+      name_help: "Full name shown on the install dialog and home screen. Defaults to the forum title."
+      name_placeholder: "My Forum"
+      short_name_label: "Short name"
+      short_name_help: "Shown under the icon on the home screen. Keep it under 12 characters."
+      short_name_placeholder: "Forum"
+      theme_color_label: "Theme color"
+      theme_color_help: "Tints the OS chrome (status bar, address bar) when the app is open. Defaults to your forum's primary color."
+      background_color_label: "Background color"
+      background_color_help: "Fills the splash screen on launch before the page renders."
+      display_label: "Display mode"
+      display_help: "How the app is presented when launched from the home screen."
+      display_standalone: "Standalone (no browser chrome)"
+      display_fullscreen: "Fullscreen (covers status bar)"
+      display_minimal: "Minimal UI (small back/refresh affordances)"
+      display_browser: "Browser tab"
+      icon_192_label: "Icon 192x192"
+      icon_192_help: "URL to a 192x192 PNG. Required for Android. Falls back to your forum's favicon if empty."
+      icon_512_label: "Icon 512x512"
+      icon_512_help: "URL to a 512x512 PNG. Required for the install dialog and splash screen."
+      sw_enabled_label: "Enable service worker"
+      sw_enabled_help: "Caches static assets for offline support. Off disables the service worker registration on the forum."
+      sw_version_label: "Cache version"
+      sw_version_help: "Bump this any time to force every visitor's browser to drop the cached assets and refetch."
+
+  forum:
+    install_button: "Install"
+    install_tooltip: "Install this forum as an app"
